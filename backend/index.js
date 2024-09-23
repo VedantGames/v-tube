@@ -1,5 +1,7 @@
 require('dotenv').config();
 
+console.log(process.env.MONGO_URL, process.env.CORS_ORIGIN2);
+
 const connectDB = require('./src/db/index');
 const app = require('./src/app');
 
